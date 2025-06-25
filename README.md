@@ -9,6 +9,7 @@ This project analyzes customer transactional data from an eCommerce platform to 
 - Understand customer purchase behavior
 - Analyze trends in product sales, returns, and churn
 - Segment customers for targeted marketing
+- Payment preferences to uncover actionable business insights
 - Demonstrate skills in pandas, matplotlib/seaborn, and storytelling with data
 
 ---
@@ -56,6 +57,33 @@ This enabled grouping into:
 - "Big Spenders"
 
 ---
+ 🧪 Exploratory Data Analysis Highlights
+
+### 🔹 Univariate Insights
+- Most customers are aged **<20 and 60
+- Distribution of the payment options
+- The products distribution
+
+### 🔹 Bivariate Insights
+- **Churn** is higher among customers aged **<20-30 and 60+**
+- **Returned products** per product
+- Customers who churned tend to have **lower average purchase amounts**
+
+
+---
+
+## 🛠️ Tools Used
+- **Python**, **Jupyter Notebook**
+- **Pandas**, **Matplotlib**, **Seaborn**
+- **Git**, **GitHub**
+
+---
+
+## 🚀 How to Run
+1. Clone the repository
+2. Open the notebook in Jupyter
+3. Run all cells to reproduce analysis
+
 
 ## 📁 Project Files
 
