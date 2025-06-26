@@ -57,20 +57,24 @@ This enabled grouping into:
 - "Big Spenders"
 
 ---
- 🧪 Exploratory Data Analysis Highlights
-
-### 🔹 Univariate Insights
-- Most customers are aged **<20 and 60
-- Distribution of the payment options
-- The products distribution
-
-### 🔹 Bivariate Insights
-- **Churn** is higher among customers aged **<20-30 and 60+**
-- **Returned products** per product
-- Customers who churned tend to have **lower average purchase amounts**
-
 
 ---
+| Area                   | Description                                                            |
+| ---------------------- | ---------------------------------------------------------------------- |
+| 📦 Data Cleaning       | Removed nulls, renamed columns, typed conversions                      |
+| 🔎 EDA                 | Univariate, bivariate, and multivariate visualizations                 |
+| 🧠 Feature Engineering | Added age groups, spending segments, return rate, customer types, etc. |
+| 📉 Churn Analysis      | Explored churn by age, gender, weekday, return rate, spending          |
+| 📊 Visualization       | Used Seaborn & Matplotlib for business-friendly insights               |
+
+### 🔍 Model Comparison Summary (Initial)
+
+| Model               | Accuracy | Notes |
+|--------------------|----------|--------|
+| Logistic Regression | ~79% | Moderate accuracy, better than decision tree on recall |
+| Decision Tree       | ~80% | High overall accuracy, but very poor at predicting churn |
+| Issue               | Class Imbalance | Tree model predicts non-churners (0) almost always |
+| Next Steps          | Resampling, class weights, Random Forest |
 
 ## 🛠️ Tools Used
 - **Python**, **Jupyter Notebook**
