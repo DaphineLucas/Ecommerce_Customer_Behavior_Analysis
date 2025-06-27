@@ -78,7 +78,7 @@ This enabled grouping into:
 
 ## 🛠️ Tools Used
 - **Python**, **Jupyter Notebook**
-- **Pandas**, **Matplotlib**, **Seaborn**
+- **Pandas**, **Matplotlib**, **Seaborn**, **Scikit**
 - **Git**, **GitHub**
 
 ---
